@@ -1,0 +1,33 @@
+.container {
+    max-width: 100%;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+.item{
+    text-align: center;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+body{
+     background: #CD5D5D;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.card{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+.parend-card{
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+}
